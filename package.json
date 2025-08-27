@@ -6,9 +6,16 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@as-integrations/fastify": "^3.0.0",
+    "@fastify/caching": "^9.0.3",
+    "elysia": "latest",
+    "elysia-connect-middleware": "^0.0.6",
+    "fastify": "^5.5.0",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-upload-minimal": "^1.6.1"
   },
   "devDependencies": {
+    "@types/graphql-depth-limit": "^1.1.6",
     "bun-types": "latest"
   },
   "module": "src/index.js"
